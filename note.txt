@@ -5,3 +5,4 @@ git commit -m "massage"
 git push/git push -u origin main/master
 git branch
 git checkout -b branch_name
+git pull
