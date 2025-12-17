@@ -1,0 +1,7 @@
+git clone url
+git status
+git add ./git add "file name"
+git commit -m "massage"
+git push/git push -u origin main/master
+git branch
+git checkout -b branch_name
