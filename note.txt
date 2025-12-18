@@ -1,8 +1,35 @@
+Already github repo
+==============
 git clone url
 git status
 git add ./git add "file name"
 git commit -m "massage"
 git push/git push -u origin main/master
 git branch
-git checkout -b branch_name
-git pull
+git checkout -b branch_name (new branch)
+
+Local create floder and new repo
+===============
+git init
+git remote add origin url(github repo)
+git remote show origin
+------
+git status
+git add .
+git commit -m "massage"
+git push
+
+//history
+git log
+
+command + / (command)
+
+command + z (undo)
+command + y (edo)
+option + z (for scrollable)
+command + x (cut)
+command + v (paste)
+command + d (same word select)
+option + mouse click (same time write)
+
+
