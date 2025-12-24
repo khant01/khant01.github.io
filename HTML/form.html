@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 align="center">Form Lesson</h1>
+    <form action="register.html" method="get" enctype="multipart/form-data">
+        <div>
+            <label for="Image">Image</label>
+            <input type="file" id="Image" name="Image">
+        </div>
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" placeholder="Enter Name" name="name">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Enter Email" name="email">
+        </div>
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" id="age" placeholder="Enter Age" name="age" step="2" min="16" max="60">
+        </div>
+        <div>
+            <label for="date">Date Of Birth</label><br>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <label for="time">Time</label><br>
+            <input type="time" id="time" name="time">
+        </div>
+        <div>
+            <label for="password">password</label><br>
+            <input type="password" id="password" placeholder="Enter Password" name="password">
+        </div><br>
+        <div>
+            <label for="">Gender</label>
+            <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+        </div><br>
+        <label for="">Hobbies</label>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading"><label for="reading">Reading</label>
+        <input type="checkbox" id="swimming". name="hobbies" value="Swimming"><label for="swimming">Swimming</label>
+        <input type="checkbox" id="gaming" name="hobbies" value="Gaming"><label for="gaming">Gaming</label>
+        <input type="checkbox" id="Travelling" name="hobbies". value="Travelling"><label for="Travelling">Travelling</label><br>
+        <label for="Education">Education</label>
+        <select name="Education" id="Education">
+            <option value="First Year">First Year</option>
+            <option value="Second Year">Second Year</option>
+            <option value="Third Year">Third Year</option>
+        </select><br><br>
+        <div>
+            <label for="address">Address</label>
+            <textarea name="address" id="address"></textarea>
+        </div><br>
+        <input type="color"><br><br>
+        
+
+
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
