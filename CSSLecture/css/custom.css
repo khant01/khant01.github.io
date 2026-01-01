@@ -1,11 +1,65 @@
 /* Universal Selector */
-*{
+/* *{
     color: #ff0000;
-    
-}
+     } */
 
 /* Element Selector/tag Selector */
  h1{
     text-align: center;
-    color: #ffff00;
+    color: #e9040c;
 }
+
+/* Attribute Selector */
+a[title="google"]{
+    color: green;
+    text-decoration: none;
+}
+
+/* ID Selector */
+#idselector{
+    color: #3f06fb;
+    line-height: 30px;
+    word-spacing: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Class Selector */
+.classone{
+    color: #287128;
+    text-indent: 40px;
+    line-height: 25px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+/* Descendant Selector */
+#Desc a{
+    color: #ff0000;
+}
+
+/* Child Selector */
+#Child > a{
+    color: gray;
+}
+
+/* Pseudo Selector */
+a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    text-decoration: dotted underline;
+}
+
+a:active{
+    color:brown;
+}
+
+a:visited{
+    color: darkgreen;
+}
+    
