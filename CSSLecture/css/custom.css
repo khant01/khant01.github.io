@@ -1,0 +1,11 @@
+/* Universal Selector */
+*{
+    color: #ff0000;
+    
+}
+
+/* Element Selector/tag Selector */
+ h1{
+    text-align: center;
+    color: #ffff00;
+}

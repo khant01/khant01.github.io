@@ -1,0 +1,8 @@
+h1{
+    /* color: red; keyword/text */
+    /* color: #ff0000;0 to 9 -> a to f hex code */
+    /* color: #f00; short hex code */
+    color: rgb(255, 0, 0); /* rgb(red, green, blue) -> 0 to 255 */
+    text-align: center;
+    font-size: 40px;
+}
