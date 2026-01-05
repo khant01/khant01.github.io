@@ -62,4 +62,9 @@ a:active{
 a:visited{
     color: darkgreen;
 }
+
+/* Target */
+:target{
+    color: #ff0000;
+}
     

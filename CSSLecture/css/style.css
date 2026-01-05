@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 h1{
     /* color: red; keyword/text */
     /* color: #ff0000;0 to 9 -> a to f hex code */
@@ -5,4 +10,51 @@ h1{
     color: rgb(255, 0, 0); /* rgb(red, green, blue) -> 0 to 255 */
     text-align: center;
     font-size: 40px;
+}
+
+.borderone{
+    /* border: 5px dotted #e8ec07; */
+    border-top: 5px solid #e8ec07;
+}
+
+.bordertwo{
+    /* border-style: 5px solid #27177a; */
+    /* all four side */
+    /* border-style: solid dotted; */
+    /* T&B L&R */
+    /* border-style: solid dotted double; */
+    /* T/ L&R / B */
+    border-style: solid dotted double dashed;
+    /* T/ R / B / L */
+}
+
+.borderthree{
+    border-width: 20px 15px 10px 5px;
+    border-style: solid;
+}
+
+/* Margin */
+
+.marginone{
+    margin: 50px 10px;
+    border: 2px solid #e8ec07;
+}
+
+/* Padding */
+
+.paddindone{
+    padding: 50px 10px;
+    border: 2px solid #690a0a;
+}
+
+.inline{
+    border: 2px solid #ec0707;
+    display: inline-block;
+    width: 200px;
+}
+
+.block{
+    border: 2px solid #ec0707;
+    width: 200px;
+    display: inline-block;
 }
